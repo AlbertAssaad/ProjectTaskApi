@@ -1,0 +1,37 @@
+{
+  "id": "67207e94-3af5-4c14-8a52-20635ba83a57",
+  "name": "ProjectTaskApi",
+  "publisher": "Albert Assaad",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [{
+    "id": "b12712c1-6567-4d47-bb5e-7421bb58616a",
+    "name": "Example",
+    "publisher": "Albert Assaad",
+    "version": "1.0.0.0"
+  }],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "28.0.0.0",
+  "idRanges": [
+    {
+      "from": 50200,
+      "to": 50249
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "17.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

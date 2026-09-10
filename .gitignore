@@ -1,0 +1,14 @@
+# AL build output and downloaded symbols
+*.app
+.alpackages/
+.altemplates/
+.snapshots/
+.netcoredbg/
+
+# Machine-specific AL state, rewritten on every publish
+.vscode/rad.json
+
+# Windows / OneDrive noise
+Thumbs.db
+desktop.ini
+*.lnk
