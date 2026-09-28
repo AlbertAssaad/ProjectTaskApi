@@ -13,7 +13,7 @@ knowing what that logic does.
 |---|---|
 | `Pag50200.ProjectTasksAPI.al` | The API page: the five route properties, `ODataKeyFields = SystemId`, and the `[ServiceEnabled] completeTask` bound action |
 | `app.json` | ID range 50200–50249, and the dependency on the Part 4 app |
-| `.vscode/launch.json` | The container config used in the article — server `bcserver`, instance `BC`, tenant `default` |
+| `.vscode/launch.json` | The container config used in the article  server `bcserver`, instance `BC`, tenant `default` |
 
 ## You need Part 4 as well
 
@@ -42,6 +42,6 @@ Two things that cost me time and are worth repeating here:
 
 ## Not committed
 
-`.alpackages/` (around 60 MB of Microsoft symbol packages — run `AL: Download
+`.alpackages/` (around 60 MB of Microsoft symbol packages  run `AL: Download
 Symbols` to get your own), the compiled `.app` file, and `.vscode/rad.json`,
 which VS Code rewrites on every publish.
