@@ -1,7 +1,7 @@
 # ProjectTaskApi
 
 The AL extension from **Part 6** of my Business Central series on Medium:
-[AL Development in Business Central Part 6: API Pages, OData, and Bound Actions](https://medium.com/p/8da530048da2)
+[AL Development in Business Central Part 6: API Pages, OData, and Bound Actions](https://medium.com/@albertassaad/al-development-in-business-central-part-6-api-pages-odata-and-bound-actions-8da530048da2)
 
 It exposes the Project Task table from Part 4 as a REST endpoint, and adds a bound
 action that lets an external caller run the Complete Task logic over HTTP without
