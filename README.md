@@ -1,7 +1,7 @@
 # ProjectTaskApi
 
 The AL extension from **Part 6** of my Business Central series on Medium:
-[AL Development in Business Central Part 6: API Pages, OData, and Bound Actions](https://albertassaad.medium.com/)
+[AL Development in Business Central Part 6: API Pages, OData, and Bound Actions](https://medium.com/p/8da530048da2)
 
 It exposes the Project Task table from Part 4 as a REST endpoint, and adds a bound
 action that lets an external caller run the Complete Task logic over HTTP without
@@ -13,7 +13,7 @@ knowing what that logic does.
 |---|---|
 | `Pag50200.ProjectTasksAPI.al` | The API page: the five route properties, `ODataKeyFields = SystemId`, and the `[ServiceEnabled] completeTask` bound action |
 | `app.json` | ID range 50200–50249, and the dependency on the Part 4 app |
-| `.vscode/launch.json` | The container config used in the article  server `bcserver`, instance `BC`, tenant `default` |
+| `.vscode/launch.json` | The container config used in the article: server `bcserver`, instance `BC`, tenant `default` |
 
 ## You need Part 4 as well
 
@@ -33,7 +33,7 @@ that sounds like the app doesn't exist.
 
     http://<container>:7048/BC/api/albertassaad/projectMgmt/v1.0/companies({id})/projectTasks?tenant=default
 
-Two things that cost me time and are worth repeating here:
+Two things worth knowing before your first call:
 
 - Web service calls authenticate with the user's **Web Service Access Key**, not
   the password you sign into the web client with.
@@ -42,6 +42,6 @@ Two things that cost me time and are worth repeating here:
 
 ## Not committed
 
-`.alpackages/` (around 60 MB of Microsoft symbol packages  run `AL: Download
+`.alpackages/` (around 60 MB of Microsoft symbol packages; run `AL: Download
 Symbols` to get your own), the compiled `.app` file, and `.vscode/rad.json`,
 which VS Code rewrites on every publish.
